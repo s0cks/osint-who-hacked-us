@@ -1,0 +1,74 @@
+version: '3'
+vars:
+  TYPST_OUTPUT_FILE: "{{.TASKFILE_DIR | base}}.pdf"
+tasks:
+  typst:compile:
+    internal: true
+    preconditions:
+      - sh: which typst
+        msdg: Typst compiler is missing. Please install before running typst:compile
+    cmd: |
+      typst compile {{.TYPST_SOURCE | default "main.typ"}} {{.TYPST_OUTPUT_FILE}}
+  mermaid:render:
+    desc: Render chart using mermaid-cli
+    preconditions:
+      - sh: which mmdc
+        msg: mermaid-cli is missing. Please install before rendering mermaid diagrams.
+    cmd: |
+      mmdc \
+        -i {{.MERMAID_SOURCE_FILE}} \
+        -o {{.MERMAID_OUT_FILE}} \
+        -b transparent
+  render:ch1-timeline:
+    cmds:
+      - task: mermaid:render
+        vars:
+          MERMAID_SOURCE_FILE: src/ch1-timeline.mmd
+          MERMAID_OUT_FILE: src/ch1-timeline.png
+  render:ch2-timeline:
+    cmds:
+      - task: mermaid:render
+        vars:
+          MERMAID_SOURCE_FILE: src/ch2-timeline.mmd
+          MERMAID_OUT_FILE: src/ch2-timeline.png
+  render:ch3-timeline:
+    cmds:
+      - task: mermaid:render
+        vars:
+          MERMAID_SOURCE_FILE: src/ch3-timeline.mmd
+          MERMAID_OUT_FILE: src/ch3-timeline.png
+  render:full-timeline:
+    cmds:
+      - task: mermaid:render
+        vars:
+          MERMAID_SOURCE_FILE: src/full-timeline.mmd
+          MERMAID_OUT_FILE: src/full-timeline.png
+  render:timelines:
+    deps:
+      - render:ch1-timeline
+      - render:ch2-timeline
+      - render:ch3-timeline
+      - render:full-timeline
+  compile:
+    deps:
+      - render:timelines
+    aliases:
+      - default
+    cmds:
+      - task: typst:compile
+  sign:
+    requires:
+      vars:
+        - GPG_SIGNING_KEY
+    cmds:
+      - |
+        gpg \
+          -u {{.GPG_SIGNING_KEY}} \
+          --detach-sign \
+          {{.TYPST_OUTPUT_FILE}}
+      - |
+        gpg \
+          --enarmor < {{.TYPST_OUTPUT_FILE}}.sig > {{.TYPST_OUTPUT_FILE}}.asc
+  clean:
+    cmds:
+      - rm -rf *.pdf
