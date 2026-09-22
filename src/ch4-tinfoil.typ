@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 #line(length: 100%)
@@ -30,12 +29,10 @@ they just want to enjoy a beautiful city with their kids - or praise a transnati
   So, what does a person - or unit, do?
 ]
 
-#block(breakable: false)[
-  #margin-note(side: left)[
-    Probably should mention the gap between living in the Hyatt in Feb to
-    moving in to 66th in Aug is proper dwell time for penetration hacks
-  ]
-]
+
+//TODO(@s0cks):
+// Probably should mention the gap between living in the Hyatt in Feb to
+// moving in to 66th in Aug is proper dwell time for penetration hacks
 
 You hack the vulnerable bits, the places where people are out schmoozing each other, buying drinks or having lunch with each other.
 

@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 === BTK

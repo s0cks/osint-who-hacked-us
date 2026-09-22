@@ -1,5 +1,5 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
+#import "./util.typ": *
 
 There is so much to unpack from this discussion its not even fair.
 
@@ -7,9 +7,8 @@ I have so many questions and comments and will most likely never get any answers
 
 To say its haunted me since I read it is an understatement but I will ask the following open-ended question(s):
 
-#margin-note[
-  Could clean this ending section up more
-]
+// TODO(@s0cks):
+// Could clean this ending section up more
 
 #block(
   breakable: false,
@@ -29,7 +28,7 @@ To say its haunted me since I read it is an understatement but I will ask the fo
   Why hypothetically lie about something that happened a year ago and got resolved?
 
   What does this have to do with Dutch officials observing the @DNC:a hack for a year before it happened and not wanting to release any information outside of that one soundbite?
-  #index[Denmark]
+  #index[Dutch Intelligence]
   #index[DNC]
 
   Finally, if not Russia - according to Epstein, and not China - according to official narrative, then who?

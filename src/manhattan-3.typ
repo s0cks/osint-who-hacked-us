@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == Manhattan III
@@ -20,7 +19,7 @@ market identity.
 
 #line(length: 100%)
 
-#margin-note[
-  Need to mention Yoni stayed at Epstein's spare apartment
-  between Sept 30th - Oct 13th
-]
+
+// TODO(@s0cks):
+// Need to mention Yoni stayed at Epstein's spare apartment
+// between Sept 30th - Oct 13th

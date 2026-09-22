@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == Manhattan I
@@ -15,7 +14,9 @@ In reality, he was a veteran of Israel’s military intelligence directorate (AM
 #index[AMAN].
 
 Israel's AMAN is a much broader umbrella term for their intelligence corps - which includes the infamous Unit 8200.
-A group akin to the @US:a's @NSA:a -
+#index[Unit 8200]
+A group akin to the @US:a's @NSA:a
+#index[National Security Agency] -
 #link("https://www.jns.org/feature/how-the-us-precipitated-israels-offensive-cyber-collapse")[in fact, Barak and a former Unit 8200 commander
   Ehud Schneurson went on to form a cyber-firm named Paragon and in which approximately 50 employees got mobilized for reserve duty during the Oct 7th 2023 Hamas-led attacks
 ].

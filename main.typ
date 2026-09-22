@@ -1,8 +1,6 @@
 #import "@preview/in-dexter:0.7.2": make-index
 #import "@preview/abbr:0.3.1"
 #import "@preview/wordometer:0.1.5": total-words, word-count
-#import "@preview/drafting:0.2.2"
-#import "@preview/badgery:0.1.1"
 
 #show: abbr.show-rule
 #show: word-count.with(

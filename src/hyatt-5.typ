@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == Hyatt V
@@ -23,6 +22,5 @@
 
 #line(length: 100%)
 
-#margin-note[
-  Probably should elaborate on the lawsuits that went nowhere
-]
+// TODO(@s0cks):
+// Probably should elaborate on the lawsuits that went nowhere

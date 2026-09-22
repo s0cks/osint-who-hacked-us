@@ -1,18 +1,13 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == BlackPOS
 
 Let's break for a moment to glaze the highly sophisticated and specialized software that is BlackPOS.
 
-#margin-note(side: right)[
-  need citation for posterity
-]
-
-#margin-note(side: left)[
-  Need tie in to DarkHotel
-] <wc-exclude>
+//TODO(@s0cks):
+// need citation for posterity
+// Need tie in to DarkHotel
 
 BlackPOS (also known as Kaptoxa) is a strain of @POS:a spyware initially authored in 2013 by
 #index[BlackPOS]

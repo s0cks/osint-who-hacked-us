@@ -8,7 +8,20 @@ tasks:
       - sh: which typst
         msdg: Typst compiler is missing. Please install before running typst:compile
     cmd: |
-      typst compile {{.TYPST_SOURCE | default "main.typ"}} {{.TYPST_OUTPUT_FILE}}
+      typst compile \
+        {{.TYPST_SOURCE | default "main.typ"}} \
+        dist/{{.TYPST_OUTPUT_FILE}}
+  typst:compile-html:
+    internal: true
+    preconditions:
+      - sh: which typst
+        msdg: Typst compiler is missing. Please install before running typst:compile
+    cmd: |
+      typst compile \
+        --features html \
+        --format html \
+        {{.TYPST_SOURCE | default "main.typ"}} \
+        dist/{{.TASKFILE_DIR | base}}.html
   mermaid:render:
     desc: Render chart using mermaid-cli
     preconditions:
@@ -56,6 +69,7 @@ tasks:
       - default
     cmds:
       - task: typst:compile
+      - task: typst:compile-html
   sign:
     requires:
       vars:
@@ -65,10 +79,10 @@ tasks:
         gpg \
           -u {{.GPG_SIGNING_KEY}} \
           --detach-sign \
-          {{.TYPST_OUTPUT_FILE}}
+          dist/{{.TYPST_OUTPUT_FILE}}
       - |
         gpg \
-          --enarmor < {{.TYPST_OUTPUT_FILE}}.sig > {{.TYPST_OUTPUT_FILE}}.asc
+          --enarmor < dist/{{.TYPST_OUTPUT_FILE}}.sig > dist/{{.TYPST_OUTPUT_FILE}}.asc
   clean:
     cmds:
-      - rm -rf *.pdf
+      - rm -rf dist/*.{pdf,html}

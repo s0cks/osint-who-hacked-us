@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == Election
@@ -17,9 +16,7 @@ president.
 #index[Hillary Clinton]
 #index[Donald Trump]
 
-#margin-note(side: left)[
-  Probably should elaborate more on the DNC hack and Russia's involvement
-]
+//TODO(@s0cks): Probably should elaborate more on the DNC hack and Russia's involvement
 
 #line(length: 100%)
 

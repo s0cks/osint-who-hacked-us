@@ -50,7 +50,7 @@
 #let ehud-barak() = pill(color: rgb("e8f5e9"), border-color: rgb("43a047"))[Ehud Barak]
 #let yoni-koren() = pill(color: rgb("ffebee"), border-color: rgb("e53935"))[Yoni Koren]
 #let epstein() = pill(color: rgb("f3e5f5"), border-color: rgb("8e24aa"))[Epstein]
-#let sultan() = pill(color: rgb("fdfaf2"), border-color: rgb("b8860b"))[Sultan Bin Sulyamen]
+#let sultan() = pill(color: rgb("fdfaf2"), border-color: rgb("b8860b"))[Sultan Bin Sulayem]
 #let jim-miller() = pill(color: rgb("fff3e0"), border-color: rgb("fb8c00"))[Jim Miller]
 #let target-hack-2013() = pill(color: rgb("fbe9e7"), border-color: rgb("d84315"))[2013 Target Hack]
 #let btk-railway() = pill(color: rgb("e0f2f1"), border-color: rgb("00695c"))[Baku-Tbilisi-Kars]

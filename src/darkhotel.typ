@@ -1,5 +1,4 @@
 #import "@preview/in-dexter:0.7.2": index
-#import "@preview/drafting:0.2.2": margin-note
 #import "./util.typ": *
 
 == DarkHotel
@@ -65,6 +64,5 @@ I have made.
   group of people.
 ]
 
-#margin-note[
-  Need to elaborate on the Target Hack more
-]
+// TODO(@s0cks):
+// Need to elaborate on the Target Hack more
