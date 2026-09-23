@@ -29,9 +29,9 @@ in fact they even shared #link("https://thecoronadonews.com/2026/03/how-a-corona
 #aside[
   Rich people are weird - have enough money to buy 10 houses but need to share one with your buddies.
   On-par with
-  #link("https://finance.yahoo.com/news/bill-gates-recalls-warren-buffett-203108944.html")[Warren Buffet treating Bill Gates to McDonalds and then paying with coupons].
+  #link("https://finance.yahoo.com/news/bill-gates-recalls-warren-buffett-203108944.html")[Warren Buffett treating Bill Gates to McDonalds and then paying with coupons].
   #index[Bill Gates]
-  #index[Warren Buffet]
+  #index[Warren Buffett]
   #index[McDonalds]
   @gates-buffet-mcdonalds
 ]

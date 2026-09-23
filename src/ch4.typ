@@ -3,17 +3,12 @@
 
 = A Winter of Recovery
 
-#pill-box[
-  #hyatt-hotels()
-  #target-hack-2013()
-] <wc-exclude>
-
 #include "hyatt-4.typ"
 
 #include "darkhotel.typ"
 
-#timeline("full-timeline.png")[
-  A comprehensive timeline for the readers
-]
+#include "target-hack-2013.typ"
 
-#include "ch4-tinfoil.typ"
+#include "blackpos.typ"
+
+#include "tinfoil.typ"

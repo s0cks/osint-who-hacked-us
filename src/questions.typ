@@ -7,9 +7,6 @@ I have so many questions and comments and will most likely never get any answers
 
 To say its haunted me since I read it is an understatement but I will ask the following open-ended question(s):
 
-// TODO(@s0cks):
-// Could clean this ending section up more
-
 #block(
   breakable: false,
   inset: (x: 1cm, top: 2.5em),
@@ -27,7 +24,7 @@ To say its haunted me since I read it is an understatement but I will ask the fo
 
   Why hypothetically lie about something that happened a year ago and got resolved?
 
-  What does this have to do with Dutch officials observing the @DNC:a hack for a year before it happened and not wanting to release any information outside of that one soundbite?
+  What does this have to do with #link("https://www.cbsnews.com/news/dutch-intelligence-us-fbi-russian-hacking-cozy-bear-democratic-national-committee/")[Dutch officials observing the @DNC:a hack for a year before it happened] and not wanting to release any information outside of that one soundbite?
   #index[Dutch Intelligence]
   #index[DNC]
 

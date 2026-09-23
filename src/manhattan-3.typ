@@ -19,7 +19,7 @@ market identity.
 
 #line(length: 100%)
 
+In late September and October, we see #link("https://www.dropsitenews.com/p/israeli-spy-yoni-koren-stayed-jeffrey-epstein-apartment-ehud-barak")[Yoni staying at an Epstein owned apartment]
+in Manhattan.
 
-// TODO(@s0cks):
-// Need to mention Yoni stayed at Epstein's spare apartment
-// between Sept 30th - Oct 13th
+Specifically between the dates of: September 5th-15th, and September 30th-October 13th

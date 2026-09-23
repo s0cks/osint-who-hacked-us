@@ -3,15 +3,6 @@
 
 = A Fall of Security
 
-#pill-box[
-  #hyatt-hotels()
-  #sultan()
-  #ehud-barak()
-  #baku()
-  #jim-miller()
-  #btk-railway()
-] <wc-exclude>
-
 #include "manhattan-3.typ"
 
 #include "baku-1.typ"

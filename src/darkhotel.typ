@@ -36,33 +36,3 @@ transitioned into executing highly sophisticated, cloud-based espionage operatio
 Inexsmar via spear-phishing campaigns to infiltrate geopolitical and political entities worldwide.
 @mitre-darkhotel
 @kaspersky-darkhotel
-
-#line(length: 100%)
-
-I also think it's important to note that none of the stolen credit card data got liquidated on darkweb markets.
-
-I think this is an important distinction from the direct comparison to the
-#link(
-  "https://www.commerce.senate.gov/wp-content/uploads/media/doc/2014%200325%20Target%20Kill%20Chain%20Analysis.pdf",
-)[2013]
-@target-2013-kill-chain
-#link("https://redriver.com/security/target-data-breach")[Target]
-@target-2013-breach
-#link("https://www.sipa.columbia.edu/sites/default/files/2022-11/Target%20Final.pdf")[hack]
-@target-2013-columbia
-I have made.
-#index[2013 Target Hack]
-
-#aside[
-  If you were cybercriminals looking for credit card information to steal, you most certainly would liquidate your spoils
-  as fast as possible - _right_?
-
-  Information like that is only valuable to financial criminals _right_?
-
-  I say that in jest, but there's a bit of snark to it as well.
-  That credit card information is most certainly valuable to a financial criminal but it is also valuable to another
-  group of people.
-]
-
-// TODO(@s0cks):
-// Need to elaborate on the Target Hack more

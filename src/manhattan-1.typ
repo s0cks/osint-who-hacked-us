@@ -10,8 +10,8 @@ and bank information for a Citibank account under a man known as Yoni Koren.
 #index[Citibank]
 To the uninitiated, Koren was just an associate.
 #index[Yoni Koren]
-In reality, he was a veteran of Israel’s military intelligence directorate (AMAN)
-#index[AMAN].
+In reality, #link("https://www.dropsitenews.com/p/israeli-spy-yoni-koren-stayed-jeffrey-epstein-apartment-ehud-barak")[he was a veteran of Israel’s military intelligence directorate (AMAN)].
+#index[AMAN]
 
 Israel's AMAN is a much broader umbrella term for their intelligence corps - which includes the infamous Unit 8200.
 #index[Unit 8200]
@@ -28,6 +28,10 @@ In which an ex-@NSA:a contractor and whistleblower - who remains exiled in Russi
 leaked details about the intimacy of the @US:a and Israeli intelligence relationship,
 along with details about how Unit 8200 leveraged @PII:a - like sexual orientation or say purchase histories, to blackmail Palestinians
 @mondoweiss-snowden.
+
+#aside[
+  That is quite the background in cyber-intelligence.
+]
 
 Koren was also Barak’s former bureau chief, and his closest personal confidante.
 Koren operated as Barak's primary intermediary for vetting intelligence rumors and scouting cybersecurity startups.
@@ -128,8 +132,8 @@ where the root name "Levi"
 @chabad-levy
 The "Levin" variation is more common in English-speaking countries like the @US:a
 
-So, in theory: a woman with predominantly Jewish heritage of the Eastern-European (Ashkenazi) variety most likely born in an
-English-speaking country like the @US:a, with a relatively common forename and surname, and somehow connected to Ehud Barak -
+So, in theory: a woman with a seemingly Jewish heritage of the Eastern-European (Ashkenazi) variety most likely born in an
+English-speaking country like the @US:a, with a common forename and surname, and somehow connected to Ehud Barak -
 a former Israeli general and prime minister.
 
 #aside[
@@ -142,6 +146,17 @@ a former Israeli general and prime minister.
 
 I will also admit that given Barak's status, this card - and subsequently the cardholder / owner, could very well
 just be an assistant or some form of stakeholder or executive in one of Barak's many business ventures.
+
+Despite the mundane explanation of being a potential assistant or executive acquaintance to Barak, the profile of this woman also
+fits within the bounds of #link("https://www.timesofisrael.com/ehud-barak-referred-weinstein-to-ex-mossad-agents-he-hired-to-quash-allegations/")[Barak's Mossad connections].
+Mossad are #link("https://en.majalla.com/node/327590/documents-memoirs/armed-and-dangerous-history-women-mossad")[notorious for employing women] -
+a famous example being #link("https://www.latimes.com/archives/la-xpm-1986-11-17-mn-3998-story.html")[the woman who lured Mordecai Vanunu, a nuclear whistleblower, from London to Rome where Vanunu was captured by Mossad and brought back to Israel].
+
+Crazy how #link("https://www.latimes.com/archives/la-xpm-1991-10-25-vw-186-story.html")[Robert Maxwell, father of Ghislaine Maxwell the co-conspirator to Epstein is tied to that event].
+
+#aside[
+  Small world.
+]
 
 #line(length: 100%)
 

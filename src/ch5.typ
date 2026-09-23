@@ -3,14 +3,6 @@
 
 = 2016
 
-#pill-box[
-  #hyatt-hotels()
-  #dnc()
-  #baku()
-  #ehud-barak()
-  #epstein()
-] <wc-exclude>
-
 #include "hyatt-5.typ"
 
 #include "2016.typ"

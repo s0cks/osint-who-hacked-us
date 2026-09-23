@@ -25,7 +25,7 @@ and #efta-link("EFTA01802416")[couldn't wait to share this information with Epst
 @EFTA01802416
 
 Don't get me wrong here, I am glad for you Mr Miller but I generally don't immediately email my friends to tell them I met
-a beautiful woman in another country. I wouldn't want to confirm to my sketchy friends that I'm vulnerable to pretty wom
+a beautiful woman in another country. I wouldn't want to confirm to my sketchy friends that I'm vulnerable to pretty women
 
 #block(breakable: false)[
   #aside[
@@ -61,3 +61,7 @@ a beautiful woman in another country. I wouldn't want to confirm to my sketchy f
 
   Surely that won't bite anyone in the arse.
 ]
+
+#line(length: 100%)
+
+#include "dnc-joke.typ"

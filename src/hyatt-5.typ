@@ -20,7 +20,5 @@
   All is well.
 ]
 
-#line(length: 100%)
-
-// TODO(@s0cks):
-// Probably should elaborate on the lawsuits that went nowhere
+Well, minus #link("https://www.legalnewsline.com/archives/legal-newsline/florida-woman-blames-hyatt-for-data-breach/article_503a9a6d-7990-509a-896d-02e33e6924b8.html#main-page-container")[this lawsuit] and
+#link("https://www.classaction.org/media/guarisma-v-hyatt.pdf")[this one] - both of which went nowhere.
